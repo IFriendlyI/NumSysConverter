@@ -21,9 +21,10 @@ int main()
   cin >> sysNow;
 
   cout << "В систему: ";
-  cin >> sysAft;
+  cin >> sysAfter;
 
   // here will be a conversion to new system
+  cout << "Перевести число из " << sysNow << " системы счисления в " << sysAfter << " систему счисления."; 
   
   return 1;
 }
